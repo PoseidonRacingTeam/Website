@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="el">
+<head>
+<meta charset="utf-8">
+<title>Poseidon Team — Επικοινωνία</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/pages.css">
+<link rel="shortcut icon" href="Photos/logo_triena.png">
+</head>
+<body>
+
+<header class="site-header">
+	<a href="Poseidon_Main_Page-gr.html" class="site-header__logo">
+		<img src="Photos/WHITE-03.png" alt="Poseidon Team">
+	</a>
+
+	<nav class="site-nav" id="site-nav">
+		<div class="nav-dropdown">
+			<button type="button" aria-haspopup="true">ΟΜΑΔΕΣ</button>
+			<div class="nav-dropdown__panel">
+				<span class="group-label">ΟΜΑΔΑ <span style="font-family: var(--font-body); font-weight: 700;">RACING</span></span>
+				<a href="Team_Racing-gr.html">22-23</a>
+				<a href="Team_Racing_2024-gr.html">23-24</a>
+				<span class="group-label">ΟΜΑΔΑ <span style="font-family: var(--font-body); font-weight: 700;">ECO</span></span>
+				<a href="Team_Eco-gr.html">22-23</a>
+				<a href="Team_Eco_2024-gr.html">23-24</a>
+			</div>
+		</div>
+		<a href="Distinctions-gr.html">ΔΙΑΚΡΙΣΕΙΣ</a>
+		<a href="Sponsors-gr.html">ΧΟΡΗΓΟΙ</a>
+		<a href="Contact-gr.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+		<a href="Contact-en.html" class="lang-toggle">ENG</a>
+	</nav>
+
+	<button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Άνοιγμα μενού">
+		<span></span><span></span><span></span>
+	</button>
+</header>
+
+<main>
+	<section class="page-intro">
+		<span class="page-intro__badge">Επικοινωνία</span>
+		<h1 class="page-intro__title">Επικοινωνία</h1>
+		<p class="page-intro__subtitle">Ερωτήσεις για χορηγίες, συμμετοχή στην ομάδα ή οτιδήποτε άλλο — επικοινωνήστε μαζί μας.</p>
+	</section>
+
+	<div class="contact-grid">
+		<div>
+			<div class="contact-card">
+				<p><strong>Βασιλείου Χρήστος</strong><br>Αρχηγός ομάδας Racing<br><a href="tel:+306970339161">+30 697 033 9161</a></p>
+			</div>
+			<div class="contact-card">
+				<p><strong>Γεωργακόπουλος Διονύσιος</strong><br>Αρχηγός ομάδας Eco<br><a href="tel:+306949166931">+30 694 916 6931</a></p>
+			</div>
+			<div class="contact-card">
+				<p><strong>Email Poseidon Team</strong><br><a href="mailto:poseidon@uniwa.gr">poseidon@uniwa.gr</a></p>
+			</div>
+		</div>
+
+		<div class="contact-card">
+			<h2 class="page-intro__title" style="font-size: 1.5rem; margin-bottom: 1rem;">Φόρμα Επικοινωνίας</h2>
+			<form class="contact-form" action="php/contactform-gr.php" method="post">
+				<div>
+					<label for="name_surname">Όνομα &amp; Επώνυμο</label>
+					<input type="text" id="name_surname" name="name">
+				</div>
+
+				<div>
+					<label for="email">E-mail</label>
+					<input type="email" id="email" name="mail">
+				</div>
+
+				<div>
+					<label for="request">Το αίτημά σου</label>
+					<input type="text" id="request" name="subject">
+				</div>
+
+				<div>
+					<label for="message">Το μήνυμά σου</label>
+					<textarea id="message" name="message" rows="5"></textarea>
+				</div>
+
+				<button type="submit" name="submit">Αποστολή</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="map-frame">
+		<h2 class="page-intro__title" style="font-size: 1.5rem; text-align: left; margin-bottom: 0.5rem;">Η Τοποθεσία Μας</h2>
+		<p style="color: var(--color-muted); margin-bottom: 1rem;">Poseidon Team, Γραφεία: Πέτρου Ράλλη &amp; Θηβών 250, 12241, Αιγάλεω</p>
+		<div class="map-frame__wrap">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d661.1392805354575!2d23.673400225828768!3d37.978852837508434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bddbb37f4621%3A0x41adea00bc3d3acb!2sPoseidon%20Team!5e0!3m2!1sel!2sgr!4v1678978030669!5m2!1sel!2sgr" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+		</div>
+	</div>
+</main>
+
+<footer class="site-footer">
+	<a href="Poseidon_Main_Page-gr.html"><img src="Photos/WHITE-03.png" alt="Poseidon Team"></a>
+	<ul class="social-footer">
+		<li><a href="https://www.facebook.com/PoseidonUniWA" target="_blank" rel="noopener"><img src="Photos/Facebook_tria.png" alt="Facebook"></a></li>
+		<li><a href="https://www.instagram.com/poseidonteam_/" target="_blank" rel="noopener"><img src="Photos/Instagram_tria.png" alt="Instagram"></a></li>
+		<li><a href="https://www.linkedin.com/company/poseidon-team/" target="_blank" rel="noopener"><img src="Photos/LinkedIn_tria.png" alt="LinkedIn"></a></li>
+	</ul>
+	<small>&copy; Με επιφύλαξη παντός δικαιώματος</small>
+</footer>
+
+<script src="JS/main.js"></script>
+</body>
+</html>

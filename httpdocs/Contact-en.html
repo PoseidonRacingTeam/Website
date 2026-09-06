@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Poseidon Team — Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/pages.css">
+<link rel="shortcut icon" href="Photos/logo_triena.png">
+</head>
+<body>
+
+<header class="site-header">
+	<a href="Index.html" class="site-header__logo">
+		<img src="Photos/WHITE-03.png" alt="Poseidon Team">
+	</a>
+
+	<nav class="site-nav" id="site-nav">
+		<div class="nav-dropdown">
+			<button type="button" aria-haspopup="true">TEAMS</button>
+			<div class="nav-dropdown__panel">
+				<span class="group-label">TEAM RACING</span>
+				<a href="Team_Racing-en.html">22-23</a>
+				<a href="Team_Racing_2024-en.html">23-24</a>
+				<span class="group-label">TEAM ECO</span>
+				<a href="Team_Eco-en.html">22-23</a>
+				<a href="Team_Eco_2024-en.html">23-24</a>
+			</div>
+		</div>
+		<a href="Distinctions-en.html">DISTINCTIONS</a>
+		<a href="Sponsors-en.html">SPONSORS</a>
+		<a href="Contact-en.html">CONTACT</a>
+		<a href="Contact-gr.html" class="lang-toggle">GR</a>
+	</nav>
+
+	<button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+		<span></span><span></span><span></span>
+	</button>
+</header>
+
+<main>
+	<section class="page-intro">
+		<span class="page-intro__badge">Get in touch</span>
+		<h1 class="page-intro__title">Contact Us</h1>
+		<p class="page-intro__subtitle">Questions about sponsorship, joining the team, or anything else — here's how to reach us.</p>
+	</section>
+
+	<div class="contact-grid">
+		<div>
+			<div class="contact-card">
+				<p><strong>Vasileiou Christos</strong><br>Racing Team Manager<br><a href="tel:+306970339161">+30 697 033 9161</a></p>
+			</div>
+			<div class="contact-card">
+				<p><strong>Georgakopoulos Dionisios</strong><br>Eco Team Manager<br><a href="tel:+306949166931">+30 694 916 6931</a></p>
+			</div>
+			<div class="contact-card">
+				<p><strong>Poseidon Team Email</strong><br><a href="mailto:poseidon@uniwa.gr">poseidon@uniwa.gr</a></p>
+			</div>
+		</div>
+
+		<div class="contact-card">
+			<h2 class="page-intro__title" style="font-size: 1.5rem; margin-bottom: 1rem;">Contact Form</h2>
+			<form class="contact-form" action="php/contactform-en.php" method="post">
+				<div>
+					<label for="name_surname">Your name &amp; surname</label>
+					<input type="text" id="name_surname" name="name">
+				</div>
+
+				<div>
+					<label for="email">Your e-mail</label>
+					<input type="email" id="email" name="mail">
+				</div>
+
+				<div>
+					<label for="request">Your request</label>
+					<input type="text" id="request" name="subject">
+				</div>
+
+				<div>
+					<label for="message">Your message</label>
+					<textarea id="message" name="message" rows="5"></textarea>
+				</div>
+
+				<button type="submit" name="submit">Send</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="map-frame">
+		<h2 class="page-intro__title" style="font-size: 1.5rem; text-align: left; margin-bottom: 0.5rem;">Our Location</h2>
+		<p style="color: var(--color-muted); margin-bottom: 1rem;">Poseidon Team HQ: Petrou Ralli &amp; Thivon 250, 12241, Aigaleo</p>
+		<div class="map-frame__wrap">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d661.1392805354575!2d23.673400225828768!3d37.978852837508434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bddbb37f4621%3A0x41adea00bc3d3acb!2sPoseidon%20Team!5e0!3m2!1sel!2sgr!4v1678978030669!5m2!1sel!2sgr" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+		</div>
+	</div>
+</main>
+
+<footer class="site-footer">
+	<a href="Index.html"><img src="Photos/WHITE-03.png" alt="Poseidon Team"></a>
+	<ul class="social-footer">
+		<li><a href="https://www.facebook.com/PoseidonUniWA" target="_blank" rel="noopener"><img src="Photos/Facebook_tria.png" alt="Facebook"></a></li>
+		<li><a href="https://www.instagram.com/poseidonteam_/" target="_blank" rel="noopener"><img src="Photos/Instagram_tria.png" alt="Instagram"></a></li>
+		<li><a href="https://www.linkedin.com/company/poseidon-team/" target="_blank" rel="noopener"><img src="Photos/LinkedIn_tria.png" alt="LinkedIn"></a></li>
+	</ul>
+	<small>&copy; All Rights Reserved</small>
+</footer>
+
+<script src="JS/main.js"></script>
+</body>
+</html>
